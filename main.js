@@ -7,7 +7,8 @@ myImage.onclick = () => {
     } 
     if (mySrc === "tiger-image2.png") {
         myImage.setAttribute("src", "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7825539/horse-clipart-md.png");
-    } else if (mySrc === "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7825539/horse-clipart-md.png") {
+    }
+    if (mySrc === "https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7825539/horse-clipart-md.png") {
         myImage.setAttribute("src", "tiger-image.png");
     }
 };
